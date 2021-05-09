@@ -44,5 +44,5 @@ describe('Clicking "Pusha till stacken"', () => {
 
   test('The stack should be empty at the end', async () => {
     let stack = await driver.findElement(By.id('top_of_stack')).getText();
-    expect(stack).toEqual("n/a");
+    expect(stack).toEqual("undefined");
   });
