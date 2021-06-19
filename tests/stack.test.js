@@ -26,9 +26,3 @@ test('pop and check order of pushed elements', () => {
   expect(stack.pop()).toBe(2);
   expect(stack.pop()).toBe(1);
 });
-
-
-//test('pop on stack with one element', () => {
-//  stack.push(1);
-//  expect(stack.pop()).toBe(1);
-//});
